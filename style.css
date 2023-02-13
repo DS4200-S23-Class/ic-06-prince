@@ -1,0 +1,15 @@
+#frame{
+	width: 500px;
+	height: 500px;
+	background: red;
+}
+
+circle{
+	fill: green;
+}
+
+.dark-mode{
+	fill: blue;
+}
+
+.gen

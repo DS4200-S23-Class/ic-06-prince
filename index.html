@@ -3,12 +3,45 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" href = "style.css">
+    <title>ic-06</title>
 </head>
 
 
 <body>
+<h1>JavaScript Part 2</h1>
+<div>
+    
+    <div class = "gen">
+        <p>which one yu like </p>
+        <form id = "frm-faverate">
+            <input type="radio" name="fav_vis" value = "Bar Chart"/> Bar Chart
+            <br>
+            <input type="radio" name="fav_vis" value = "Line Chart"/> Line Chart
+            <br>
+            <input type="radio" name="fav_vis" value = "Pie Chart"/> Pie!
+        </form>
+        <button type="button" id = "subButton">Submit</button>
+    </div>
+    <div class = "gen" id ="selected-vis"> 
+    filter </div>
 
 
+    <div>
+        <svg id = "frame">
+            <circle cx = "490" cy = "10" r = "10"/>
+            <circle id = "max" cx = "400" cy = "400" r = "20"/>
+        </svg>
+        <button type="button" id = "colButton">Submit</button>
+
+    </div>
+</div>
+
+
+
+
+
+<script src = "main.js" type="text/javascript"></script>
 </body>
 
 </html>
